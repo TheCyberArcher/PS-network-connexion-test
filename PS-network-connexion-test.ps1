@@ -89,10 +89,10 @@ $report_connection = foreach ($Server in $Servers) {
 #Report generation with data collection :  
 
 
-$Report_connexion | Select-Object Name, IP, Online, TCP_Port
+$report_connexion | Select-Object Name, IP, Online, TCP_Port
 
 #Export in a CSV file :
 
-$Report_connexion | Export-Csv -Path network-report.csv -NoTypeInformation
+$report_connexion | Export-Csv -Path network-report.csv -NoTypeInformation
 
 
