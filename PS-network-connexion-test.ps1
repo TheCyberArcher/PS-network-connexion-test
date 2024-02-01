@@ -1,7 +1,7 @@
 
 # Host declaration : 
 
-$HOSTNAME1  = "ipaddress"
+$HOSTNAME1 = "ipaddress"
 $HOSTNAME2 = "ipaddress"
 $HOSTNAME3 = "ipaddress"
 $HOSTNAME4 = "ipaddress"
